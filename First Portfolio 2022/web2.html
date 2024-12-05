@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>My Portfolio | Home</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tailwindcss/2.2.7/tailwind.min.css">
+  <link rel="stylesheet" href="css/web2.css">
+
+</head>
+
+<body class="bg-white">
+	<header class="bg-white shadow py-6 fixed w-screen z-50">
+		<div class="container mx-auto px-4">
+			<nav class="flex justify-between items-center">
+				<div class="text-xl font-bold"><a href="index.html">My Portfolio</a></div>
+				<ul class="flex">
+					<li><a class="px-4 text-gray-500"  style="font-size: x-large;">Click me --></a></li>
+					<li><a href="web3.html" class="px-4 hover:text-blue-500" style="font-size: x-large;">Projects</a></li>
+					
+				</ul>
+			</nav>
+		</div>
+	</header>
+	
+	<main class="parent">
+		<section1 class="index1">
+			<p class="p1">Hello!</p1>
+			<p>I am <span>Gab Pirante</span> </p>
+			<h1>A Production Layout Artist</h1>
+			<p class="p1">at your service</p>
+			<button id="downloadButton">
+				Download CV
+			</button>
+		</section1>
+		<section2 class="index2">
+			Portrait mode isn't yet available
+		</section2>	     
+	</main>
+	<main2 class="parent2" name="parents2">
+		<section1 class="mindex1">
+			
+			<p class="aboutme"><span>About</span> Me </p>
+			<h1>Hardworker that gives Importance to learning</h1>
+			<p class="mp1">Enjoys the graphic design industry</p>
+			<button id="downloadButton">
+				Download CV
+			</button>
+		</section1>
+		<section class="index2">
+			Portrait mode isn't yet available
+		</section>
+
+	</main2>
+	<main3 class="parent3">
+		
+		<section2 class="section2">
+			<div class="item1">
+				<h1>find me on:</h1>
+				<div class="find">
+					<div class="q">	
+						<div class="e"><button><img src="images/fb-logo.png" alt=""></button>@gab pirante</div>					
+						<div class="e"><button><img src="images/ig-logo.png" alt=""></button>@prnt_gab</div>
+					</div>
+					<div class="w">
+						<h><span>Contact</span> me</h>
+						<p>+63 916-308-5409</p>
+						<p class="p1">pirantealdwin04@gmail.com</p>
+					</div>
+				
+					
+				</div>
+			</div>
+			<div class="item2">
+				<h1><span>Contact</span> Me!</h1>
+				<div class="contactbox">
+					<form>
+						<label for="fullname">Full Name:</label>
+						<input type="text" id="fullname" name="fullname" required>
+					
+						<label for="email">Email:</label>
+						<input type="email" id="email" name="email" required>
+					
+						<label for="message">Message:</label>
+						<textarea id="message" name="message" required></textarea>
+					
+						<button type="submit">Send</button>
+						<p>-currently unavailable-</p>
+					</form>
+				</div>
+			</div>
+		</section2>
+
+	</main3>
+
+	<footer class="bg-gray-600 py-4 mt-auto">
+		<div class="container mx-auto text-center text-1">
+			<p>&copy; 2023 My Portfolio. All rights reserved. </p>
+			<p>Note that the owner design this purely CSS</p>
+		</div>
+	</footer>
+
+	<script>
+		document.getElementById("downloadButton").addEventListener("click", function() {
+    
+    var fileURL = "https://drive.google.com/file/d/1qKJK3U0XUxkcuGRPw_Ekkydr25jwJiYY/view?usp=sharing";
+    
+  
+    var anchor = document.createElement("a");
+    anchor.href = fileURL;
+    anchor.download = "GabrielCV.pdf"; 
+    
+    document.body.appendChild(anchor);
+    anchor.click();
+    
+    
+    document.body.removeChild(anchor);
+		});
+	</script>
+</body>
+</html>
