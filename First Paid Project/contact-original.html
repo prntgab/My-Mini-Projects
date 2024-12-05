@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Business Casual - Start Bootstrap Theme</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,400i,700,700i" rel="stylesheet" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+    <body>
+        <header>
+            <h1 class="site-heading text-center text-faded d-none d-lg-block">
+                <span class="site-heading-upper text-primary mb-3">Contact Page</span>
+                <span class="site-heading-lower"></span>
+            </h1>
+        </header>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
+            <div class="container">
+                <a class="navbar-brand text-uppercase fw-bold d-lg-none" href="index.html">Contact Page</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mx-auto">
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="index.html">Home</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="about.html">About</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="products.html">Products</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="store.html">Schedule</a></li>
+                        <li class="nav-item px-lg-4"><a class="nav-link text-uppercase" href="contact.html">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <section class="page-section about-heading">
+            <div class="container contact-container">
+                <div class="row" >
+                    <div class="col ">
+                        <div class="row">
+                            <div class="col-xl-9 col-lg-10 mx-auto contact-sec1">
+                                <div class="">
+                                    <h1 class="mb-3 mt-4">
+                                        <span class="contact-upper">Contact <br> Us</span>          
+                                    </h1>
+                                    <h2  class="contact-lower mb-4">
+                                        <span>or connect with us: </span>
+                                    </h2>
+                                </div>
+                                    <div class="mb-4 d-flex justify-content-around contact-sec2 col-xl-12 col-sm-4">
+                                        <div><button class="original-btn" onclick="socialMedia(1);"><img src="assets/img/instagram-alt-logo-24.png" alt=""></button></div>
+                                        <div><button class="original-btn" onclick="socialMedia(2);"><img src="assets/img/facebook-circle-logo-24 (1).png" alt=""></button></div>
+                                        <div><button class="original-btn" onclick="socialMedia(3);"><img src="assets/img/envelope-regular-24.png" alt=""></button></div>
+                                        <div><button class="original-btn" onclick="socialMedia(4);"><img src="assets/img/contact-solid-24.png" alt=""></button></div>
+                                    </div>
+                                    <div class="mb-4 d-flex flex-column px-sm-4  " style="padding-right: 5em;">
+                                        <div class="p-2"><span class="igClass" id="igMedia">@chefdidiertable</span></div>
+                                        <a href="https://web.facebook.com/gourmet.manila.food" style="text-decoration: none; color: white;"><div class="p-2"><span class="fbClass" id="fbMedia">Chef Didier's Table</span></div></a>
+                                        <div class="p-2"><span class="eClass" id="eMedia">chefdidiertable@gmail.com</span></div>
+                                        <div class="p-2"><span class="cClass" id="cMedia">(+63) 921-572-8408</span></div>
+                                    </div>    
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="col-8 text-center col-xl-9 col-lg-10 mx-auto">
+                        <div class="row">
+                            <div class="col ">
+                                <div class="row  m-3">
+                                    <div class="col choose-service">Choose Service</div>
+                               </div>
+                               <div class="row m-2">
+                                    <div class="col">
+                                    <------------------>
+                                    </div>
+                               </div>
+                               <div class="row m-2">
+                                     <div class="col-lg col-sm-6 mx-auto p-2"><button class="btn-conts btn-cont1">Private Workshops</button></div>
+                                     <div class="col-lg col-sm-6 mx-auto p-2"><button class="btn-conts btn-cont1">Catering Service</button></div>
+                                     <div class="col-lg col-sm-6 mx-auto p-2"><button class="btn-conts btn-cont1">Subscription/Food Delivery</button></div>
+                                     <div class="col-lg col-sm-6 mx-auto p-2"><button class="btn-conts btn-cont1">Other</button></div>
+                               </div>
+
+                               <div class="row m-5 form-contact">
+                                    <form class="col" onsubmit="validateForm(); reset(); return false;">
+                                        <div class="row  fs-2">
+                                            <div class="col">
+                                                GET IN TOUCH NOW!
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col d-flex justify-content-center">
+                                                How do we call you?           
+                                            </div>
+                                        </div>
+                                        <div class="row d-flex justify-content-center">
+                                            <div class="col-xl-2 col-sm-6 pt-2">
+                                                <div class="row justify-content-center align-items-center g-2">
+                                                    <div class="col">
+                                                         <label for="exampleInputEmail1" class="form-label">
+                                                         <button class="original-btn2">Mr:</button>
+                                                        </label>      
+                                                     </div>
+                                                    <div class="col">/</div>
+                                                    <div class="col">
+                                                        <label for="exampleInputEmail1" class="form-label">
+                                                            <button class="original-btn2">Ms:</button>
+                                                        </label>     
+                                                    </div>
+                                                </div>                                                  
+                                            </div>
+                                            <div class="col-xl-8 col-sm-12 pt-2">
+                                                <input type="text" class="form-control" id="nicknameContact" aria-describedby="emailHelp" placeholder="Nickname" required>
+                                            </div>
+                                        </div>
+                                        <div class="row pt-3 d-flex justify-content-center">
+                                            <div class="col-xl-2 col-sm-12 pt-2 d-flex justify-content-center ">
+                                                <label for="emailContact" class="form-label">Email address: </label>
+                                            </div>
+                                            <div class="col-xl-8 col-sm-12 pb-2">
+                                                <input type="email" class="form-control" id="emailContact" aria-describedby="emailHelp" placeholder="email@gmail.com" required>
+                                            </div>
+                                        </div>
+                                        <div class="row pt-3 d-flex justify-content-center">
+                                            <div class="col-xl-2 col-sm-12 pt-2 d-flex justify-content-center">
+                                                <label for="exampleInputEmail1" class="form-label">Contact #: </label>
+                                            </div>
+                                            <div class="col-xl-8 col-sm-12 pb-2">
+                                                <input type="text" class="form-control" id="numberContact" aria-describedby="emailHelp" placeholder="(+63) 1234567890" required>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-2 d-flex">
+                                                Message:
+                                            </div>
+                                            <div class="col-8">
+                                                <!--- none here -->
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col p-2">
+                                                <textarea type="message" class="form-control" id="messageContact" name="message" aria-describedby="emailHelp" placeholder="How can we assist you on your order?" required></textarea>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col">
+                                              <!-- (popdown button) Once you sent it rest assured 1-3 days we will contact you right away --> 
+                                            </div>
+                                        </div>
+                                        <div class="row pt-5  ">
+                                            <div class="col d-flex justify-content-end">
+                                                <div class="col d-flex justify-content-end"><button type="submit"  class="btn-conts btn-cont1">Submit</button></div>
+                                            </div>
+                                        </div>
+                                        
+                                    </form>
+                               </div>
+                            </div>          
+                        </div>
+                               
+                    </div>
+                </div>
+                
+            </div>
+        </section>
+        <footer class="footer text-faded text-center py-4">
+            <div class="container"><p class="m-0 small">Copyright &copy; Prnt_G 2024</p></div>
+        </footer>
+         
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Email sent JS-->  
+        <script type="text/javascript"
+            src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js">
+        </script>
+        <script type="text/javascript">
+            (function(){
+            emailjs.init({
+                publicKey: "EGqwrXmZ5UBrkEq9A",
+            });
+            })();   
+        </script>
+        <script type="text/javascript">
+            function sendEmail(){
+                let samps = {
+                    name: document.getElementById("nicknameContact").value,
+                    email: document.getElementById("emailContact").value,
+                    phone: document.getElementById("numberContact").value,
+                    subject: "Private Workshop",
+                    message: document.getElementById("messageContact").value,
+                }
+
+                emailjs.send("service_ewzevza","template_dy3ampa", samps).then(alert("Email Sent"));
+            
+                
+            }
+
+            function validateForm() {
+                // Perform your form validation here
+                let nickname = document.getElementById("nicknameContact").value;
+                let email = document.getElementById("emailContact").value;
+                let phone = document.getElementById("numberContact").value;
+                let message = document.getElementById("messageContact").value;
+
+                // Example validation (add more as needed)
+                if (nickname.trim() === "" || email.trim() === "" || phone.trim() === "" || message.trim() === "") {
+                    // If any field is empty, return false to prevent form submission
+                    alert("Please fill in all fields.");
+                    return true;
+                    
+                }
+
+                // If validation passes, return true to allow form submission
+                sendEmail();
+                window.location.href = "sentEmail.html";
+                locateEmail(); 
+                return true;
+            }
+
+
+            function locateEmail(){
+                alert("hi");
+            }
+        </script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+       
+    </body>
+</html>
