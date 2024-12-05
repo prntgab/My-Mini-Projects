@@ -1,0 +1,89 @@
+
+
+
+
+
+body{
+  font-weight: bolder;
+  color: rgb(240, 240, 240);
+  font-size: x-large;
+  font-family: 'Bangers', cursive;
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+}
+
+
+
+body::before {
+  content: "XS";
+  color: red;
+  font-size: 2rem;
+  font-weight: bold;
+  position: fixed;
+  top: 0;
+  right: 0;
+}
+
+.rockbutton{
+  -webkit-box-shadow: 0px 0px 0px 7px rgba(255,255,255,0.74); 
+  box-shadow: 0px 0px 0px 7px rgba(255,255,255,0.74); 
+  border-radius: 100%; 
+  border: 5px solid #0e303a; padding: 50px; 
+  background-color: #ffe74c;
+}
+.paperbutton{
+  -webkit-box-shadow: 0px 0px 0px 7px rgba(255,255,255,0.74); 
+  box-shadow: 0px 0px 0px 7px rgba(255,255,255,0.74); 
+  border-radius: 100%; padding: 50px;  border: 5px solid; 
+  background-color: #00e0d5;
+}
+.scissorbutton{
+  -webkit-box-shadow: 0px 0px 0px 7px rgba(255,255,255,0.74); 
+  box-shadow: 0px 0px 0px 7px rgba(255,255,255,0.74);
+  border-radius: 100%; padding: 50px;  border: 5px solid; 
+  background-color: #f1baf4;
+}
+/*ADD HOVER BUTTON*/
+.rockbutton:hover {
+  background-color: #f5d637;
+}
+
+/* Hover styles for the .paperbutton */
+.paperbutton:hover {
+  background-color: #00b2a9;
+}
+
+/* Hover styles for the .scissorbutton */
+.scissorbutton:hover {
+  background-color: #eb92ed;
+}
+
+
+@media (min-width: 576px) {
+  body::before {
+    content: "SM";
+  }
+}
+
+@media (min-width: 768px) {
+  body::before {
+    content: "MD";
+  }
+}
+
+@media (min-width: 992px) {
+  body::before {
+    content: "LG";
+  }
+}
+
+@media (min-width: 1200px) {
+  body::before {
+    content: "XL";
+  }
+}
+
+@media (min-width: 1400px) {
+  body::before {
+    content: "XXL";
+  }
+}
