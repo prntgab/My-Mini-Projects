@@ -1,0 +1,267 @@
+@import url('https://fonts.cdnfonts.com/css/aharoni');
+@import url('https://fonts.cdnfonts.com/css/agency-fb');
+
+.homehome{
+  display: flex;
+  height: 50px;
+  width: 200px;
+  border-style: solid;
+  justify-content: center;
+  margin-bottom:  800px;
+  margin-top: 168px;
+  margin-left: 80px;
+ 
+}
+
+.home{
+  
+  position: relative;
+  background: white;
+  color: rgb(243, 239, 239);
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  letter-spacing: 0.1em;
+  font-weight: 400;
+  padding: 10px 30px;
+  transition: 0.5s;
+  font-family: 'Agency FB', sans-serif;
+
+ 
+
+  
+}
+.home:hover{
+  letter-spacing: 0.25em;
+  background: var(--clr);
+  color: var(--clr);
+  box-shadow: 0 0 35px var(--clr);
+  color: white;
+}
+.home::before{
+  content: '';
+  inset: 2px;
+  background: #27282c;
+  position: absolute;
+}
+.home span{
+  position: relative;
+  z-index: 1;
+}
+.home i{
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+.home i::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 80%;
+  width: 10px;
+  height: 4px;
+  background: rgb(0, 0, 0);
+  transform: translateX(-50%) skewX(325deg);
+  transition: 0.5s;
+}
+.home:hover i::before{
+  width: 20px;
+  left: 20%;
+}
+.home i::after{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 20%;
+  width: 10px;
+  height: 4px;
+  background: rgb(0, 0, 0);
+  transform: translateX(-50%) skewX(325deg);
+  transition: 0.5s;
+}
+.home:hover i::after{
+  width: 20px;
+  left: 80%;
+}
+
+
+
+.box{
+  display: flex;
+  position: relative ;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  height: 98vh;
+  flex-direction: row;
+  border-color: gray;
+  border-width: 10px;
+  border-style: solid;
+  align-items: center;
+
+}
+
+.center{
+  flex-direction: column;
+  display: flex;
+  background-color: rgb(0, 0, 0);
+  align-items: center;
+  font-size: 30px;
+  font-family: 'Aharoni', sans-serif;
+  font-weight: 1000;
+  z-index: 100;
+  border-style: solid;
+  width: 100%;
+  white-space: nowrap;
+  
+}
+.first-container{
+  margin-top: 280px; 
+  height: 70vh;
+  width: 100vh;
+  display: flex;
+  border-style: solid;
+ 
+
+  
+}
+.firstimg{
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  z-index: 1;
+  
+  
+}
+.explore-div{
+  display: flex;
+  padding: 0;
+  margin: 0;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: center;
+  
+  
+}
+.explore-css{
+  font-family: 'Agency FB', sans-serif;
+  border: 2px solid #fff;
+  font-size: 30px; 
+  letter-spacing: 5px;
+  padding: 10px 40px;
+  background-color: transparent; 
+  color: #fff;
+  cursor: pointer;
+  position: relative;
+  transition: background-color 1s, color 1s;       
+  margin-bottom: 100px;
+  box-shadow: 0px 0px 10px 1px rgb(147, 59, 150);                                 
+}
+.explore-css:hover{
+  background-color:  rgb(255, 255, 255);
+  color: #000;
+  box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
+  border-color: rgb(255, 255, 255); 
+
+ 
+ 
+}
+.explore-css::after{
+  content: '';
+  position: absolute;
+  left: 0;
+  bottom: -35%;
+  background-color: transparent;
+  height: 50%;
+  width: 100%;
+  transform: perspective(25px) rotateX(40deg) scale(1.2,0.45);
+  filter: blur(17px);
+  transition: background-color 1s;
+ 
+
+}
+.explore-css:hover::after{
+  background-color: rgb(147, 59, 150); 
+  box-shadow: 0px 0px 0px 0px rgb(255, 255, 255);
+  
+}
+
+.callme{
+  margin-bottom: 100px;
+  margin-top: 50px;
+  color: #fff;
+  text-shadow: 
+  #a54949 0 0 8px,
+  #3650e4 0 0 25px,
+  #2112f5 0 0 40px;
+  animation: neon 4s infinite;
+  
+}
+@keyframes neon {
+  0%{
+    text-shadow:
+    #fff 0 0 8px,
+    #ff3add 0 0 25px,
+    #a5259c 0 0 40px;
+  }
+  39%{
+    text-shadow:
+    #fff 0 0 8px,
+    #ff3add 0 0 25px,
+    #a5259c 0 0 40px;
+  }
+  40%{
+    text-shadow: none;
+  }
+  41%{
+    text-shadow:
+    #fff 0 0 8px,
+    #ff3add 0 0 25px,
+    #a5259c 0 0 40px;
+  }
+  59%{
+    text-shadow:
+    #fff 0 0 8px,
+    #ff3add 0 0 25px,
+    #a5259c 0 0 40px;
+  }
+  60%{
+    text-shadow: none;
+  }
+  61%{
+    text-shadow:
+    #a54949 0 0 8px,
+    #3650e4 0 0 25px,
+    #2112f5 0 0 40px;
+  }
+  100%{
+    text-shadow:
+    #fff 0 0 8px,
+    #ff3add 0 0 25px,
+    #a5259c 0 0 40px;
+  }
+
+  
+}
+
+.c1{
+  line-height: 0px;
+  margin-top: 20px;
+  color: rgb(211, 211, 211);
+  position: relative;
+  
+}
+.c1::before{
+  content: attr(REFL-TEXT);
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: rotateX(180deg);
+  line-height: 180px;
+  transform-origin: bottom;
+  
+  background: linear-gradient(to top, rgb(211, 211, 211), transparent);
+  filter: blur(4px);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+

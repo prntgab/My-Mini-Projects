@@ -1,0 +1,70 @@
+
+    p{
+      font-family: Roboto;
+      margin-top: 0;
+      margin-bottom: 0;
+    }
+    .title {
+     
+      font-size: 18px;
+      font-weight: bold;
+      width: 300px;
+      line-height: 24px;
+      margin-bottom: 5px;
+    }
+    .stats {
+      
+      font-size: 14px;
+      color: rgb(96, 96, 96);
+     
+    
+    
+    }
+    .Marques{
+      
+      color: rgb(96, 96, 96);
+      margin-top: 20px;
+      margin-bottom: 20px;
+      font-size: 14px;
+    }
+    .talking-tech{
+      
+      color: rgb(96, 96, 96);
+      font-size: 14px;
+      width: 280px;       
+      line-height: 22px;
+      margin-bottom: 100px;
+    
+    }
+    
+    .apple-text{
+      margin-bottom: 50px;
+      font-size: 14px;
+      background-color: rgb(227, 65, 64);
+      color: white;
+      text-align: center;
+      padding-top: 18px;
+      padding-bottom: 18px;
+      
+      
+    
+    }
+    .span-ex{
+      color: red;
+      margin-left: 100px;
+    }
+    .span-ex:hover{
+      text-decoration: underline;
+    
+    }
+    
+    .shop-link{
+      cursor: pointer;
+    
+    }
+    
+    .shop-link:hover{
+      text-decoration: underline;
+    
+    }
+   
